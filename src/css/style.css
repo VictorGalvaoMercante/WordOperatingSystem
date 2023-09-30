@@ -14,7 +14,7 @@ html{
 .container{
     max-width: 1500px;
     margin: auto;
-    display: flex;
+    display:  flex;
     align-items: center;
     justify-content: space-between;
 

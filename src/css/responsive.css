@@ -1,4 +1,4 @@
-@media (max-width:414px){
+@media (max-width:400px){
   
     body{
         height: 100vh;
@@ -77,4 +77,87 @@
         color: white;
     }
     
+}
+
+@media(max-width:769px){
+    body{
+        height: 100vh;
+        max-width: 769px;
+       
+    }
+    .container{
+        max-width:769px ;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        height: 100px;
+    }
+    button{
+        width: 50px;
+        height: 40px;
+        margin-right: 100px;
+    }
+
+
+
+    header img{
+        margin-top: 30px;
+        margin-left: 5px;
+        width: 50px;
+        height: 50px;
+    }
+    header ul li a{
+        font-size: 10pt;
+        color: black;
+    }
+    header ul li{
+        display:flex;
+        
+        margin: 5px 1px;
+        width: 190px;
+        height: 15px;
+        background-color: rgba(255, 255, 255, 0.222);
+        
+       
+        
+    }
+    header .titulo{
+        position: absolute;
+        top: 0;
+        left: 5px;
+        font-size: 12pt;
+        color: red;
+       
+    }
+    .containerMain{
+        position: absolute;
+        width: 400px;
+        top: 100px;
+        left: 200px;
+    }
+    iframe{
+        width: 400px;
+        margin-left: 0;
+    }
+    .texto{
+        width: 400px;
+        font-size: 14pt;
+        margin-left: 0;
+        box-shadow: 0 0 0 ;
+        margin-top: 0px;
+    }
+    #nameGrupo{
+    
+        background-color:rgba(240, 240, 240, 0.238);
+        height: 100%;
+        width: 400px;
+        text-align: center;
+        font-size: 20pt;
+        color: white;    
+        border-radius: 20px;
+      
+    }
+    
+
 }
