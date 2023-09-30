@@ -12,7 +12,6 @@ html{
 }
 
 .container{
-    max-width: 1500px;
     margin: auto;
     display:  flex;
     align-items: center;
@@ -23,7 +22,7 @@ html{
 
 header{
    
-    width: 1500px;
+
     padding: 20px 4%;
     top: 0;
     left: 200px;
