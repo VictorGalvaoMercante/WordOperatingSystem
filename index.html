@@ -11,131 +11,154 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand&family=Rubik&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="src/css/responsive.css">
 </head>
 
 <body>
+    <div id="particles-js">
 
-    
-   
-    <header class="container" id="header">
+        <header id="buttons">
 
-         <i class="logo"><img src="./src/img/foto header.jpg" alt=""></i>
-        
-        <div class="titulo">
-            <h1>Linux</h1>
-        </div>
-        <nav>
-            <ul>
-               
-                <li><a href="#abertoOuFechada">Sistema Linux</a></li>
-                <li><a href="#tabela">Tabela de arquivos Linux</a></li>
-                <li><a href="#memoria">Memória máxima linux</a></li>
-                <li><a href="#processadores">Processadores</a></li>
-                <li><a href="#multitarefas">Multitarefas</a></li>
-                
-            </ul>
-        </nav>
-        <div class="btn-gupo">
-            <a href="#nameGrupo"><button>Grupo</button></a>
+            <div>
+                <button class="btn selected">Sistema Linux</button>
+            </div>
+            <div>
+                <button class="btn">Tabela Arquivos</button>
+            </div>
+            <div>
+                <button class="btn">Memória Máxima</button>
+            </div>
+            <div>
+                <button class="btn">Processadores Linux</button>
+            </div>
+            <div>
+                <button class="btn">Multitarefas</button>
+            </div>
+        </header>
 
-        </div>
-       
+        <main>
+            <div class="conteudo selected">
+                <h1 class="tituloPagina">Linux</h1>
+                <div class="video">
+                    <iframe width="896" height="504" src="https://www.youtube.com/embed/1HZlShdqkx8"
+                        title="O que é LINUX? | Explicação Rápida e Simples! [ES Explica]" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="texto">
+                    <h1>O Linux é um termo usado para classificar um kernel usado em diversos sistemas operacionais. O
+                        sistema Linux é um dos mais usados no mundo, ao lado do Windows e do macOS X. A plataforma é
+                        conhecida por ser adotada mais por servidores do que por usuários finais – o que dá a ela a fama
+                        de ser difícil para pessoas sem grandes conhecimentos de informática.</h1>
+                </div>
+            </div>
+                <div class="conteudo">
+                    <h1 class="tituloPagina">Sistema Linux</h1>
+                    <div class="video">
+                        <iframe width="760" height="431" src="https://www.youtube.com/embed/0e_NWL4bhQ4"
+                            title="Código Aberto e código fechado" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen id="video1">
+                        </iframe>
 
-    </header>
-    <section class="banner"></section>
+                    </div>
+                    <div class="texto">
+                        <h1>Linux é um sistema operacional de código aberto. Isso significa que seu código-fonte está
+                            disponível para o público em geral, e qualquer pessoa pode visualizá-lo, modificá-lo e
+                            distribuí-lo de cordo com os termos da licença de código aberto sob a qual é distribuído.
+                        </h1>
+                    </div>
+                </div>
+                    <div class="conteudo">
+                        <h1 class="tituloPagina">Tabela de Arquivos</h1>
+                        <div class="video">
+                            <iframe width="763" height="429" src="https://www.youtube.com/embed/p77eYXL0KR4"
+                                title="[Fundamentos sobre o Linux] Sistemas de Arquivos" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                        <div class="texto">
+                            <h1>O Linux é um termo usado para classificar um kernel usado em diversos sistemas
+                                operacionais. O sistema Linux é um dos mais usados no mundo, ao lado do Windows e do
+                                macOS X. A plataforma é conhecida por ser adotada mais por servidores do que por
+                                usuários finais – o que dá a ela a fama de ser difícil para pessoas sem grandes
+                                conhecimentos de informática.</h1>
+                        </div>
+                    </div>
+                        <div class="conteudo ">
+                            <h1 class="tituloPagina">Memória Máxima</h1>
+                            <div class="video">
 
-    <main class="containerMain">
+                                <iframe width="763" height="429" src="https://www.youtube.com/embed/q_fEDJ4KfkM"
+                                    title="Teste de MEMÓRIA RAM no LINUX" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
 
-        <div class="conteudoMain" id="abertoOuFechada">
-            <h2 id="title1">Sistema linux</h2>
-        </p>
-        <iframe width="760" height="431" src="https://www.youtube.com/embed/0e_NWL4bhQ4"
-        title="Código Aberto e código fechado" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen id="video1">
-    </iframe>
-    <p class="texto">
-        Linux é um sistema operacional de código aberto. Isso significa que seu código-fonte está disponível
-        para o público em geral, e qualquer pessoa pode visualizá-lo, modificá-lo e distribuí-lo de acordo com
-        os termos da licença de código aberto sob a qual é distribuído.
-</div>
-        <div class="conteudoMain" id="tabela">
-            <h2 id="title2">Tabela de arquivos</h2>
+                            </div>
+                            <div class="texto">
+                                <h1>Sistemas de 32 bits: Eles geralmente podem usar até cerca de 3 GB a 3,5 GB de RAM,
+                                    mas podem estender isso para mais com ajustes específicos.
 
-            <iframe width="763" height="429" src="https://www.youtube.com/embed/p77eYXL0KR4"
-                title="[Fundamentos sobre o Linux] Sistemas de Arquivos" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            <p class="texto">
-                Linux não usa a Tabela de Alocação de Arquivos (FAT): O Linux normalmente usa sistemas de arquivos como
-                ext4, xfs, btrfs, entre outros, que não possuem uma Tabela de Alocação de Arquivos semelhante à FAT
-                usada pelo MS-DOS e Windows. Portanto, a estrutura da tabela de alocação de arquivos FAT não é relevante
-                para o Linux.
-            </p>
-        </div>
-        <div class="conteudoMain" id="memoria">
-            <h2 id="title3"> Memória máxima</h2>
-            <iframe width="763" height="429" src="https://www.youtube.com/embed/q_fEDJ4KfkM"
-                title="Teste de MEMÓRIA RAM no LINUX" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+                                    Sistemas de 64 bits: Podem suportar uma grande quantidade de RAM, geralmente na
+                                    faixa de terabytes, dependendo do hardware.
 
-            <p class="texto">
-                Sistemas de 32 bits: Eles geralmente podem usar até cerca de 3 GB a 3,5 GB de RAM, mas podem estender
-                isso para mais com ajustes específicos. <br>
+                                    Distribuição e hardware: Os limites reais podem variar com base na distribuição do
+                                    Linux e nas capacidades de hardware.
 
-                Sistemas de 64 bits: Podem suportar uma grande quantidade de RAM, geralmente na faixa de terabytes,
-                dependendo do hardware. <br>
-
-                Distribuição e hardware: Os limites reais podem variar com base na distribuição do Linux e nas
-                capacidades de hardware <br>
-
-                Uso específico: A quantidade de memória que você precisa depende das aplicações que está executando.
-            </p>
-        </div>
-        <div class="conteudoMain" id="processadores">
-            <h2 id="title4"> Processadores</h2>
-            <iframe width="763" height="429" src="https://www.youtube.com/embed/9gbgjoQur6A"
-                title="Seu PC roda Linux? - Como saber se o Hardware é compatível" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-
-            <p class="texto">
-                O Linux suporta uma variedade de processadores, incluindo Intel, AMD, ARM (comum em smartphones e
-                dispositivos móveis), PowerPC (usado em Macs antigos), SPARC, MIPS e muitos outros. Basicamente, ele
-                pode funcionar em uma ampla gama de dispositivos e computadores com diferentes tipos de processadores.
-            </p>
-        </div>
-        <div class="conteudoMain" id="multitarefas">
-            <h2 id="title5"> Multitarefas?</h2>
-            <iframe width="763" height="429" src="https://www.youtube.com/embed/P03TWmTTxsw" title="Linux"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-            <p class="texto">
-                Sim, o Linux é um sistema operacional multitarefa. Isso significa que ele é capaz de executar várias
-                tarefas ou processos simultaneamente, compartilhando eficientemente o tempo de processamento da CPU
-                entre eles.
-            </p>
-        </div>
-        <div class="grupo" id="nameGrupo">
-            <h3>Grupo <br> name1 <br>name2 <br> name3 <br>name4 <br> name5 <br>name6 </h2>
-   
-        </div>
-
-
-    </main>
-
-
-  
+                                    Uso específico: A quantidade de memória que você precisa depende das aplicações que
+                                    está executando..</h1>
+                            </div>
+                    </div>
+                            <div class="conteudo">
+                                <h1 class="tituloPagina">Processadores Linux</h1>
+                                <div class="video">
+                                    <iframe width="763" height="429" src="https://www.youtube.com/embed/9gbgjoQur6A"
+                                        title="Seu PC roda Linux? - Como saber se o Hardware é compatível"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="texto">
+                                    <h1>O Linux suporta uma variedade de processadores, incluindo Intel, AMD, ARM (comum
+                                        em smartphones e dispositivos móveis), PowerPC (usado em Macs antigos), SPARC,
+                                        MIPS e muitos outros. Basicamente, ele pode funcionar em uma ampla gama de
+                                        dispositivos e computadores com diferentes tipos de processadores.
+                                    </h1>
+                                </div>
 
 
+                            </div>
+                        
+                            <div class="conteudo">
+                                <h1 class="tituloPagina">Multitarefas</h1>
+                                <div class="video">
+                                    <iframe width="763" height="429" src="https://www.youtube.com/embed/P03TWmTTxsw"
+                                        title="Linux" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                        allowfullscreen></iframe>
+                                </div>
+                                <div class="texto">
+                                    <h1>Sim, o Linux é um sistema operacional multitarefa. Isso significa que ele é
+                                        capaz de executar várias tarefas ou processos simultaneamente, compartilhando
+                                        eficientemente o tempo de processamento da CPU entre eles.
+                                    </h1>
+                                </div>
 
-    <script src="script.js"></script>
+
+                            </div>
+
+
+        </main>
+
+
+    </div>
+    <script src="index.js"></script>
+
+    <script src="js/particles.min.js"></script>
+    <script src="js/particlesjs-config.json"></script>
 </body>
 
 </html>
