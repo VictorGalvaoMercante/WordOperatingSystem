@@ -1,0 +1,73 @@
+@media screen and (max-width:768px) {
+
+    body {
+        background-color: black;
+        position: absolute;
+        height: 100vh;
+
+    }
+
+    .conteudo.selected {
+
+        margin-top: 300px;
+        background-color: black;
+        height: 300px;
+
+    }
+
+    #buttons {
+        position: absolute;
+
+        width: 400px;
+        height: 200px;
+        display: block;
+    }
+
+    .btn.selected {
+        width: 150px;
+        height: 20px;
+        box-shadow: 1px 1px 10px white;
+
+    }
+
+    .btn {
+        width: 150px;
+        height: 20px;
+        border: none;
+        margin-left: 120px;
+        margin-top: 10px;
+    }
+
+    .tituloPagina {
+        width: 400px;
+        color: wheat;
+        margin-top: -80px;
+        text-align: center;
+        font-size: 15pt;
+        
+    }
+
+    .video iframe {
+        width: 300px;
+        height: 200px;
+
+        
+    }
+
+    .video {
+
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .texto {
+        color: rgb(0, 0, 0);
+        background-color: #ccc;
+        text-align: center;
+        font-size: 5pt;
+        width: 250px;
+        margin-left: 75px;
+
+    }
+
+}

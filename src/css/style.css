@@ -9,10 +9,11 @@ canvas{
   position: absolute; 
   width: 100vw; 
   height: 100vh; 
-  background-color: #000000; 
+  background-color: black;
   background-repeat: no-repeat; 
   background-size: cover; 
   background-position: 100% 100%; 
+
 }
 #buttons{
   background-color: rgba(215, 199, 199, 0.113);
@@ -20,7 +21,7 @@ canvas{
   align-items: center;
   justify-content: center;
   gap: 50px;
-  height: 100px;
+  height: 150px;
   
  
 }
@@ -36,8 +37,11 @@ canvas{
   box-shadow: 1px 1px 10px white;
 }
 
+
 main .conteudo{
   display: none;
+  position: absolute;
+  
 }
 
 main .conteudo.selected{
@@ -45,21 +49,26 @@ main .conteudo.selected{
 }
 .tituloPagina{
   color: wheat;
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
   font-size: 50pt;
 }
 
 .video{
-  
+
   text-align: center;
   margin: 20px;
-  width: 100%;
+}
+
+.video iframe{
+  
+  height: 400px;
 }
 .texto{
   color: rgb(0, 0, 0);
   background-color: #ccc;
   text-align: center;
-  margin: 20px;
+  margin: 50px;
+  font-size: 10pt;
   
 }
