@@ -4,6 +4,7 @@
         background-color: black;
         position: absolute;
         height: 100vh;
+        overflow-x: hidden;
 
     }
 
