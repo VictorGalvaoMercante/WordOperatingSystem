@@ -48,10 +48,11 @@ main .conteudo.selected{
   display: block;
 }
 .tituloPagina{
-  color: wheat;
+  color: rgb(255, 1, 1);
   margin-top: 20px;
   text-align: center;
   font-size: 50pt;
+  text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.623);
 }
 
 .video{
